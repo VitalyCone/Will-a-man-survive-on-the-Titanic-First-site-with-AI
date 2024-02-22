@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <div id="site">
+        <div id="header">Выживет ли человек на титанике?</div>
+        <div id="main">
+            <div class="window">
+                <form>
+                <div class="string">
+                    <p class="upfont">Пол пассажира:</p>
+                    <p>Мужчина <input type="radio" name="Sex" value="1" onclick="onClick(this)" required></p>
+                    <p>Женщина<input type="radio" name="Sex" value="2" onclick="onClick(this)" required></p>
+                </div>
+
+                <div class="string">
+                    <p class="upfont">Класс, которым следовал пассажир:</p>
+                    <p>Первый<input type="radio" name="Pclass" value="3" onclick="onClick(this)" required></p>
+                    <p>Второй<input type="radio" name="Pclass" value="4" onclick="onClick(this)" required></p>
+                    <p>Третий<input type="radio" name="Pclass" value="5" onclick="onClick(this)" required></p>
+                </div>
+                <div class="string">
+                    <p class="upfont">Возраст пассажира:</p>
+                    <p>Возраст: <output class="outp"></output></p><p><input type="range" min="1" max="100" step="1" class="range" value="0"></p>
+                </div>
+                </form>
+                <div class="string">
+                    <p><button type="submit" id="submit">ГОТОВО</button></p>
+                </div>
+                <div id="result"><p>Результат: </p></div>   
+            </div>
+        </div>
+    </div>
+<script src="script/index.js"></script>
+</body>
+</html>

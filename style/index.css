@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    float:left;
+    background-color: rgb(15, 15, 15);
+    height:50px;
+    width: 100%;
+    padding: 75px 25px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:200;
+    font-style: normal;
+    font-size: 50px;
+    color:rgb(162, 162, 162);
+
+}
+
+#main{
+    color:aliceblue;
+    float:left;
+    height:1000px;
+    width: 100%;
+    background:linear-gradient(rgb(15, 15, 15)100px,rgb(52, 52, 52));
+}
+
+p{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:500;
+    font-style: normal;
+    font-size: 15px;
+    color:rgb(162, 162, 162)
+}
+
+input[type="radio"]{
+    width: 40px;
+}
+
+button{
+    /* float: left; */
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:500;
+    font-style: normal;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 20px;
+    border-style: none;
+
+}
+
+button:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+button:active{
+    border: 1px solid black;
+}
+
+
+
+
+.window{
+    background:linear-gradient(rgb(52, 52, 52),rgb(15, 15, 15));
+    width: 500px;
+    height: 500px;
+    float:left;
+    margin-left: 200px;
+    padding: 40px 40px;
+    color: black;
+    font-size: 10px;
+    border-radius: 10%;
+    background-attachment: fixed;
+}
+
+.upfont{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:500;
+    font-style: normal;
+    font-size: 20px;
+    color:rgb(162, 162, 162)
+}
+
+.string{
+    margin-bottom: 40px;
+
+}
+
+#result p {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:700;
+    font-style: normal;
+    font-size: 20px;
+    color:rgb(162, 162, 162);
+}
+
+
+
